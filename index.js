@@ -17,8 +17,8 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://nexlance.netlify.app',
-    credentials:true
+    origin: "https://nexlance.netlify.app",
+    credentials: true
 }
 
 app.use(cors(corsOptions));
